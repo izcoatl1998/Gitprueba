@@ -1,9 +1,12 @@
 #include <main.h>
+#include <stdio.h>
 #use delay(clock=16M)
 void main()
 {
  int8 lectura;
  //hola
+   /*
+     Esto va a ser un cambio*/
    while(TRUE)
    {
    setup_adc_ports(AN0);
