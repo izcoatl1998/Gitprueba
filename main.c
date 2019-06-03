@@ -4,9 +4,6 @@
 void main()
 {
  int8 lectura;
- //hola
-   /*
-     Esto va a ser un cambio*/
    while(TRUE)
    {
    setup_adc_ports(AN0);
